@@ -42,11 +42,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with skilled in PHP and JavaScript, and
-        skilled in frameworks like React & React Native, and Laravel. I'm a
-        quick learner and collaborate closely with new things to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+        I am a self-taught software engineer with a background in English
+        Literature. I'm a skilled in PHP and JavaScript, and skilled in
+        frameworks like React & React Native, and Laravel. <br /> <br />I am
+        constantly learning and staying up to date with the latest trends and
+        best practices in software development. I am excited to continue growing
+        as a software engineer and to work on meaningful projects that make a
+        difference!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

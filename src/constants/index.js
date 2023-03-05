@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  udemy,
+  bwa,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +118,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Native Mastery",
+    company_name: "Udemy",
+    icon: udemy,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 4th, 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing mobile applications using React Native.",
+      "Learn from basic to advance.",
+      "Implementing another library of React Native.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full-Stack Website Laravel Vue JS",
+    company_name: "BuildWithAngga",
+    icon: bwa,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 4th, 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing web applications using Laravel for back-end and Vue.js for front-end.",
+      "Collaborating with cross-functional including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Laravel: Backend for Designer",
+    company_name: "BuildWithAngga",
+    icon: bwa,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "December 26th, 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing web applications using Laravel for designer.",
+      "Implementing responsive design with Tailwind.css and implementing Laravel Blade Component for the project.",
     ],
   },
 ];
