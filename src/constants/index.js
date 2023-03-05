@@ -5,26 +5,19 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  php,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   udemy,
   bwa,
+  laravel,
 } from "../assets";
 
 export const navLinks = [
@@ -63,12 +56,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "JavaScript",
@@ -99,20 +92,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
