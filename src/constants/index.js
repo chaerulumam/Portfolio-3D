@@ -176,7 +176,7 @@ const projects = [
       },
       {
         name: "vite",
-        color: "yellow-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "tailwind",
