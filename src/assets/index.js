@@ -37,6 +37,10 @@ import moviejam from "./moviejam.png";
 import jamskill from "./jamskill.png";
 import crypto from "./crypto.png";
 
+import billgates from "./billgates.jpg";
+import stevejobs from "./stevejobs.png";
+import zuckerberg from "./zuckerberg.png";
+
 export {
   logo,
   backend,
@@ -73,4 +77,7 @@ export {
   moviejam,
   jamskill,
   crypto,
+  billgates,
+  stevejobs,
+  zuckerberg,
 };

@@ -13,12 +13,14 @@ import {
   mongodb,
   git,
   moviejam,
-  tripguide,
   udemy,
   bwa,
   laravel,
   crypto,
   jamskill,
+  billgates,
+  stevejobs,
+  zuckerberg,
 } from "../assets";
 
 export const navLinks = [
@@ -27,8 +29,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "project",
+    title: "Project",
   },
   {
     id: "contact",
@@ -139,27 +141,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.",
+    name: "Bill Gates",
+    designation: "CO-Founder",
+    company: "Microsoft",
+    image: billgates,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Quality is more important than quantity. One home run is much better than two doubles.",
+    name: "Steve Jobs",
+    designation: "CO-Founder",
+    company: "Apple",
+    image: stevejobs,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "The biggest risk is not taking any risk in a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    name: "Mark Zuckerberg",
+    designation: "CO-Founder",
+    company: "Facebook",
+    image: zuckerberg,
   },
 ];
 
