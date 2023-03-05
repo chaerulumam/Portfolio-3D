@@ -12,12 +12,13 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
+  moviejam,
   tripguide,
   udemy,
   bwa,
   laravel,
+  crypto,
+  jamskill,
 } from "../assets";
 
 export const navLinks = [
@@ -164,67 +165,65 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Jamskill's Landing Page",
+    description: "Education Landing Page site",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "vite",
+        color: "yellow-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: jamskill,
+    source_code_link: "https://github.com/chaerulumam/education-landing-page",
   },
   {
-    name: "Job IT",
+    name: "Crypto",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for crypto information.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: crypto,
+    source_code_link: "https://github.com/chaerulumam/crypto-project",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Movie Jam",
+    description: "A comprehensive movie information and trending",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: moviejam,
+    source_code_link: "https://github.com/chaerulumam/moviejam",
   },
 ];
 
