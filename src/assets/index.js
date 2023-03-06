@@ -32,7 +32,6 @@ import udemy from "./company/udemy.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import moviejam from "./moviejam.png";
 import jamskill from "./jamskill.png";
 import crypto from "./crypto.png";
@@ -69,7 +68,6 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   udemy,
   bwa,
   laravel,
