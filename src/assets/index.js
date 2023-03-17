@@ -35,6 +35,8 @@ import jobit from "./jobit.png";
 import moviejam from "./moviejam.png";
 import jamskill from "./jamskill.png";
 import crypto from "./crypto.png";
+import jamstore from "./jamstore.png";
+import gerich from "./gerich.png";
 
 import billgates from "./billgates.jpg";
 import stevejobs from "./stevejobs.png";
@@ -78,4 +80,6 @@ export {
   billgates,
   stevejobs,
   zuckerberg,
+  jamstore,
+  gerich,
 };

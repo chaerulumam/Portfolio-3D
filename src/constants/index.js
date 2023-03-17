@@ -21,6 +21,8 @@ import {
   billgates,
   stevejobs,
   zuckerberg,
+  jamstore,
+  gerich,
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +169,26 @@ const testimonials = [
 
 const projects = [
   {
+    name: "JamStore",
+    description: "A fresh e-commerce website built with love.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jamstore,
+    source_code_link: "https://github.com/chaerulumam/e-commerce",
+  },
+  {
     name: "Jamskill's Landing Page",
     description: "Education Landing Page site",
     tags: [
@@ -207,6 +229,7 @@ const projects = [
     image: crypto,
     source_code_link: "https://github.com/chaerulumam/crypto-project",
   },
+
   {
     name: "Movie Jam",
     description: "A comprehensive movie information and trending",
@@ -226,6 +249,27 @@ const projects = [
     ],
     image: moviejam,
     source_code_link: "https://github.com/chaerulumam/moviejam",
+  },
+
+  {
+    name: "Gerich Restaurant",
+    description: "A restaurant landing page website with beautifull chef",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gerich,
+    source_code_link: "https://github.com/chaerulumam/gerich-restaurant",
   },
 ];
 
